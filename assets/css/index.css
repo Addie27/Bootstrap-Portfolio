@@ -1,0 +1,62 @@
+
+
+.wrapper1{
+    border: 1px solid #cccccc;
+    margin-top: 40px; 
+
+}
+
+.navbar-custom {
+    color: #ffffff !important; 
+}
+
+.navbar p {
+    font-size: 25px; 
+}
+
+.navborder {
+    border-bottom: 1px solid #cccccc;
+}
+
+.myname {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    text-align: center;  
+}
+
+ul {
+    font-size: 15px;
+    color: #777777; 
+}
+
+img {
+    width: 130px; 
+    height: 200px; 
+    margin: 6px; 
+}
+
+.about {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: #4aaaa5; 
+    border-bottom: 1px solid #cccccc;
+    padding: 8px; 
+}
+
+.description {
+    font-size: 18px; 
+    color: #777777;
+    line-height: 1.6;
+}
+
+.footer {
+    background-color:#777777;
+    bottom: 0;
+    height: 60px;
+    position: absolute;
+    width: 100%;
+    text-align: center; 
+    color: #cccccc; 
+    padding: 20px; 
+    left: 0;
+    right: 0; 
+    border-top: 5px solid #4aaaa5; 
+}

@@ -9,7 +9,6 @@
     background-color: #ffffff !important;
 }
 
-
 a.myname:link {
     background-color: #4aaaa5 !important;
     color: #ffffff !important; 
@@ -28,12 +27,13 @@ a.myname:hover {
     font-family: 'Georgia', Times, Times New Roman, serif;
     color: #ffffff !important;  
     background-color: #4aaaa5 !important; 
-    width: 80%; 
+    width: 120%; 
     line-height: 1.0;  
     font-size: 30px; 
     height: 100%; 
-    padding: 10px 100px 10px 100px; 
-    text-align: center;
+    padding: 30px 30px 30px 30px; 
+    margin: 0 !important; 
+    text-align: center; 
 }
 
 .links {
@@ -41,7 +41,13 @@ a.myname:hover {
     color: #777777 !important;   
     margin-right: 100px; 
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif; 
-    padding: 10px; 
+    padding: 15px 10px 10px 10px; 
+}
+
+a.hover {
+    display: inline; 
+    border-right: 1px solid #cccccc;
+    line-height: 10px; 
 }
 
 .links:visited {
@@ -49,7 +55,7 @@ a.myname:hover {
 }
 
 a.hover:hover {
-    color: #4aaaa5;
+    color: #4aaaa5 !important;
     background-color: #ffffff !important;
 }
 
@@ -61,7 +67,7 @@ a.hover:hover {
     max-width: 650px; 
     background-color: #ffffff;
     padding-bottom: 20px; 
-    margin-right: 20px; ; 
+    margin-right: 20px;  
 }
 
 .about {
@@ -74,7 +80,7 @@ a.hover:hover {
 
 .profilepic {
     width: 115px;
-    height: 180px; 
+    height: 200px; 
     margin-top: 15px; 
     margin-right: 15px; 
     float: left; 
@@ -129,6 +135,10 @@ a.hover:hover {
 
 }
 
+a:hover {
+    text-decoration: none; 
+}
+
 .footer {
     background-color:#777777;
     height: 60px;
@@ -142,12 +152,14 @@ a.hover:hover {
 }
 
 
-@media (max-width: 990px) {
+@media (max-width: 1280px) {
     body {
-        padding-bottom: 70px; 
+        padding-bottom: 70px;
+         
     }
     .navbar-header {
         float: none;
+        padding: 10px; 
     }
     .navbar-toggle {
         display: block;
@@ -156,9 +168,7 @@ a.hover:hover {
         border-top: 1px solid transparent;
         box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
     }
-    .navbar-collapse.collapse {
-        display: none!important;
-    }
+   
     .navbar-nav {
         float: none!important;
         margin: 7.5px -15px;
@@ -176,7 +186,16 @@ a.hover:hover {
     }
 
     .wrapper1 {
-        margin: auto; 
+        margin: auto;   
+    }
+    .myname {
+        width: 80%; 
+    }
+
+    a.hover {
+        display: inline; 
+        line-height: 10px; 
+        border: none;
     }
 
 }

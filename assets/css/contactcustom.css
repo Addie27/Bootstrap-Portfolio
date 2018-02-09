@@ -78,20 +78,13 @@ a.hover:hover {
     font-weight: bold; 
 }
 
-.profilepic {
-    width: 115px;
-    height: 200px; 
-    margin-top: 15px; 
-    margin-right: 20px; 
-    float: left; 
+.form1 {
+    color: #777777 !important; 
 }
 
-.paragraph   {
-    font-size: 18px; 
-    color: #777777;
-    line-height: 1.8;
-    margin-top: 15px; 
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif; 
+.button {
+    background-color: #4aaaa5 !important;
+    color: #ffffff !important;
 }
 
 .panel-custom {

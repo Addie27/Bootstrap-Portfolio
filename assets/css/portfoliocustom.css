@@ -91,6 +91,11 @@ a.hover:hover {
     width: 74%; 
 }
 
+a.pimageimage {
+    color: #ffffff;
+    text-decoration: none; 
+}
+
 .about {
     font-family: 'Georgia', Times, Times New Roman, serif;
     color: #4aaaa5; 
